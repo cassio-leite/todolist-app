@@ -47,7 +47,7 @@ const TodoList = ({ todoList, toggleTodoCompleted, setFilter, filter, clearCompl
                                     <button
                                         className="hover:opacity-50 cursor-pointer"
                                         onClick={() => removeTodo(todo.id)}>
-                                        <img src="/images/icon-cross.svg" alt="remover item" />
+                                        <img src="./images/icon-cross.svg" alt="remover item" />
                                     </button>
                                 </div>
                             </li>
