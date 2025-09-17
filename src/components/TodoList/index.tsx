@@ -24,7 +24,7 @@ const TodoList = ({ todoList, toggleTodoCompleted, setFilter, filter, clearCompl
                 <ul>
                     {
                         todoList.map((todo) => (
-                            <li className={`p-6 border-b ${themeConfig[theme].todo.borderColor}`} key={todo.id}>
+                            <li className={`!p-6 border-b ${themeConfig[theme].todo.borderColor}`} key={todo.id}>
                                 <div className="flex items-center justify-between gap-4">
                                     <div className="flex items-center gap-4">
                                         <span className="w-6 h-6 rounded-full hover:bg-[linear-gradient(to_right,hsl(192,100%,67%),hsl(280,87%,65%))] hover:p-[1px]">
@@ -37,7 +37,7 @@ const TodoList = ({ todoList, toggleTodoCompleted, setFilter, filter, clearCompl
                                                     <img
                                                         src={IconCheck}
                                                         alt="check"
-                                                        className="h-2 w-2 m-auto" />)}
+                                                        className="h-2 w-2 !m-auto" />)}
                                             </button>
                                         </span>
 
